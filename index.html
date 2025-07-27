@@ -1,329 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jahnavi Gottipati | Portfolio & Resume</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    html { scroll-behavior: smooth; }
-    .contact-info {
-      font-size: 0.9rem;
-      margin-top: 0.5rem;
-      color: #555;
-    }
-    section.resume {
-      padding: 4rem 2rem;
-      background: #f9fafb;
-    }
-    .resume h2 {
-      margin-top: 2rem;
-      border-bottom: 2px solid var(--primary);
-      padding-bottom: 0.5rem;
-    }
-    .resume ul {
-      list-style-type: disc;
-      margin-left: 1.5rem;
-    }
-    .resume .job {
-      margin-top: 1.5rem;
-    }
-    .resume .job h3 {
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-    }
-    .work-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth; 
+        }
+    </style>
 </head>
 <body>
-
-  <header>
-    <h1>JAHNAVI GOTTIPATI</h1>
-    <p class="contact-info">
-      +1 (469)-476-9336 |
-      <a href="mailto:gottipatijahnavi3005@gmail.com">gottipatijahnavi3005@gmail.com</a> |
-      <a href="https://www.linkedin.com/in/jahnavi-gottipati-6b5122207/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/jahnavig3005" target="_blank">GitHub</a> |
-      <a href="#home">Portfolio</a> |
-      Willing To Relocate
-    </p>
-    <nav>
-      <ul>
-        <li><a href="#home" class="active" onclick="setActive(event, 'home')">Home</a></li>
-        <li><a href="#about" onclick="setActive(event, 'about')">About</a></li>
-        <li><a href="#education" onclick="setActive(event, 'education')">Education</a></li>
-        <li><a href="#work" onclick="setActive(event, 'work')">Work</a></li>
-        <li><a href="#resume" onclick="setActive(event, 'resume')">Resume</a></li>
-        <li><a href="#contact" onclick="setActive(event, 'contact')">Contact</a></li>
-      </ul>
+    <header>
+        <h1 id = "h1btn">Jahnavi Gottipati</h1>
+       <nav>
+        <ul>
+            <li><a href="#home" class="active" onclick="setActive(event, 'home')">Home</a></li>
+            <li><a href="#about" onclick="setActive(event, 'about')">About</a></li>
+            <li><a href="#education" onclick="setActive(event, 'education')">Education</a></li>
+            <li><a href="#work" onclick="setActive(event, 'work')">Work</a></li>
+            <li><a href="#contact" onclick="setActive(event, 'contact')">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+    </header>
+    
+    <main id="home">
+        <section class="intro">
+            <h2>Hi There,</h2>
+            <h3>I'm Jahnavi <span>Gottipati</span></h3>
+            <p>I Am Into <span class="txt">Data engineer& AI/MLops Enginner</span></p>
+            <button id = "aboutbtn" class="btn">About Me ↓</button>
+            <div class="social-links">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jahnavi-gottipati-6b5122207/"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/jahnavig3005"><i class="fab fa-github"></i></a>
+<a href="https://www.hackerrank.com/profile/190030542_klu"><i class="fab fa-hackerrank"></i></a>
+<a href="mailto:gottipatijahnavi3005@gmail.com"><i class="fas fa-envelope"></i></a>
 
-  <main id="home">
-    <section class="intro">
-      <h2>Hi There,</h2>
-      <h3>I'm Jahnavi <span>Gottipati</span></h3>
-      <p>I Am Into <span class="txt">Data engineer & AI/MLops Engineer</span></p>
-      <button id="aboutbtn" class="btn">About Me ↓</button>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/jahnavi-gottipati-6b5122207/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/jahnavig3005"><i class="fab fa-github"></i></a>
-        <a href="https://www.hackerrank.com/profile/190030542_klu"><i class="fab fa-hackerrank"></i></a>
-        <a href="mailto:gottipatijahnavi3005@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-      <div class="img-container">
-        <img src="images/ss.webp" alt="Your Image">
-      </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="images/ss.webp" alt="Your Image">
+            </div>
+        </section>
+    </main>
+    
+    <section id="about" class="g">
+        <h2><i class="fas fa-user"></i> About <span class="me">Me</span></h2>
+        <div class="aboutcontainer"> 
+            <div class="aboutimg">
+                <div class="imgcontainer">
+                    <img src="images/second.jpg" alt="Your Image">
+                </div>
+            </div>
+            <div class="about-content">
+                <h3 class="m">I'm Jahnavi Gottipati</h3>
+                <h4>Software Engineer & AI/ML Enthusiast</h4>
+                <p>
+                    I am a dedicated Software Engineer evolving into a specialist in Artificial Intelligence and Machine Learning. My passion lies in transforming complex, theoretical AI/ML concepts into executable, practical applications. Presently, I am deepening my expertise in the core principles of AI and ML, crafting and refining small-scale models to solve tangible problems. Committed to perpetual professional development, I continuously absorb the latest technological innovations. My goal is to merge my proven software development skills with my expanding proficiency in AI, striving to develop cutting-edge, efficient solutions that effectively meet diverse business and societal needs.
+
+                </p>
+                <div class="c">
+                    <p>Phone: <span> +1 4694769336</span></p>
+                    <p>Email: <span>gottipatijahnavi3005@gmail.com</span></p>
+                    <p>Address: <span>Mckinney,Tx</span></p>
+                </div>
+                <button id = "edubtn"class="edu">Education ↓</button>
+            </div>
+        </div>        
     </section>
-  </main>
-
-  <section id="about" class="g">
-    <h2><i class="fas fa-user"></i> About <span class="me">Me</span></h2>
-    <div class="aboutcontainer">
-      <div class="aboutimg">
-        <div class="imgcontainer">
-          <img src="images/second.jpg" alt="Your Image">
+    
+    <section id="education">
+        <h2 class="education-heading">
+            <i class="fas fa-graduation-cap"></i> 
+            My <span class="q">Education</span>
+            <p class="u">Education is the one thing no one can take away from you</p>
+        </h2>
+	<div class="education-card">
+            <img src="images/UNT_logo.png" alt="masters logo">
+            <div class="education-info">
+                <h3>Masters in Computer and information Science</h3>
+                <p>University of North texas, Denton,Tx</p>
+                <p><span class="year">August 2023-December 2024</span> | <span class="status">Completed</span></p>
+            </div>
         </div>
-      </div>
-      <div class="about-content">
-        <h3 class="m">I'm Jahnavi Gottipati</h3>
-        <h4>Software Engineer & AI/ML Enthusiast</h4>
-        <p>
-          I am a dedicated Software Engineer evolving into a specialist in Artificial Intelligence and Machine Learning.
-          My passion lies in transforming complex, theoretical AI/ML concepts into executable, practical applications.
-          Presently, I am deepening my expertise in the core principles of AI and ML, crafting and refining small-scale
-          models to solve tangible problems. Committed to perpetual professional development, I continuously absorb the
-          latest technological innovations. My goal is to merge my proven software development skills with my expanding
-          proficiency in AI, striving to develop cutting-edge, efficient solutions that effectively meet diverse business
-          and societal needs.
-        </p>
-        <div class="c">
-          <p>Phone: <span>+1 4694769336</span></p>
-          <p>Email: <span>gottipatijahnavi3005@gmail.com</span></p>
-          <p>Address: <span>McKinney, TX</span></p>
+        <div class="education-card">
+            <img src="images/images.jpeg" alt="Bachelor of technologies logo">
+            <div class="education-info">
+                <h3>Bachelor of Technology</h3>
+                <p>Koneru Lakshmaiah Education Foundation, Vijayawada</p>
+                <p><span class="year">May 2019-May 2023</span> | <span class="status">Completed</span></p>
+            </div>
         </div>
-        <button id="edubtn" class="edu">Education ↓</button>
-      </div>
-    </div>
-  </section>
+        
+    </section>
+<style>
+.work-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+</style>
 
-  <section id="education">
-    <h2 class="education-heading">
-      <i class="fas fa-graduation-cap"></i>
-      My <span class="q">Education</span>
-      <p class="u">Education is the one thing no one can take away from you</p>
-    </h2>
-    <div class="education-card">
-      <img src="images/UNT_logo.png" alt="Master's logo">
-      <div class="education-info">
-        <h3>Masters in Computer and Information Science</h3>
-        <p>University of North Texas, Denton, TX</p>
-        <p><span class="year">Aug 2023 – Dec 2024</span> | <span class="status">Completed</span></p>
-      </div>
-    </div>
-    <div class="education-card">
-      <img src="images/images.jpeg" alt="Bachelor logo">
-      <div class="education-info">
-        <h3>Bachelor of Technology</h3>
-        <p>Koneru Lakshmaiah Education Foundation, Vijayawada</p>
-        <p><span class="year">May 2019 – May 2023</span> | <span class="status">Completed</span></p>
-      </div>
-    </div>
-  </section>
-
-  <section id="work">
+<section id="work">
     <h2 class="work-info">
-      <i class="fas fa-laptop"></i>
-      Work <span class="r">Experience</span>
+        <i class="fas fa-briefcase"></i> 
+        My <span class="r">Work Experience</span>
+        <p class="u">Professional experience that shaped my expertise</p>
     </h2>
+
     <div class="work-container">
-      <div class="work-card">
-        <a href="https://github.com/jahnavig3005/AI-Image-Generator.git" target="_blank">
-          <img src="images/ai-image.jpeg" alt="AI Image Generator">
-          <div class="work-info">
-            <h3>AI Image Generator</h3>
-            <p>Developed an AI-powered image generator utilizing advanced machine learning models to create images based on textual descriptions.</p>
-          </div>
-        </a>
-      </div>
-      <div class="work-card">
-        <a href="https://github.com/jahnavig3005/AI-ChatBot.git" target="_blank">
-          <img src="images/nlp.png" alt="NLP Chatbot">
-          <div class="work-info">
-            <h3>AI-Powered Chatbot</h3>
-            <p>Built a Natural Language Processing (NLP) chatbot using Transformer-based models to enhance user interactions and automate responses.</p>
-          </div>
-        </a>
-      </div>
-      <div class="work-card">
-        <a href="https://github.com/jahnavig3005/customer-analysis.git" target="_blank">
-          <img src="images/start.png" alt="Predictive Analytics">
-          <div class="work-info">
-            <h3>Predictive Analytics Dashboard</h3>
-            <p>Designed a data-driven dashboard that uses machine learning algorithms to predict trends and provide insights based on real-time data.</p>
-          </div>
-        </a>
-      </div>
-      <div class="work-card">
-        <a href="https://github.com/jahnavig3005/skin-cancer-classification.git" target="_blank">
-          <img src="images/images.jpg" alt="Medical Diagnosis AI">
-          <div class="work-info">
-            <h3>Deep Learning for Medical Diagnosis</h3>
-            <p>Implemented a deep learning model using CNNs for early detection of diseases based on medical imaging datasets.</p>
-          </div>
-        </a>
-      </div>
-      <div class="work-card">
-        <a href="https://github.com/jahnavig3005/youtube_clone" target="_blank">
-          <img src="images/utube.png" alt="YouTube UI">
-          <div class="work-info">
-            <h3>YouTube UI Clone</h3>
-            <p>Created a front-end clone of YouTube’s user interface with functional search, video listing, and responsive design.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
+        <div class="work-card">
+            <img src="images/net_orbit.png" alt="Net Orbit Logo">
+            <h3>Data Engineer</h3>
+            <p>Net Orbit</p>
+            <p class="year">Feb 2025 – Present</p>
+        </div>
 
-  <section id="resume" class="resume">
-    <h2>Professional Summary</h2>
-    <ul>
-      <li>Experienced Data and AI Engineer with 4+ years of building scalable data pipelines, ETL workflows, and cloud-native architectures across AWS (Glue, Redshift, S3, SageMaker), GCP (BigQuery, Dataflow, Vertex AI), and Azure (Data Factory, Synapse, ML Studio).</li>
-      <li>Proficient in Python, SQL, and Apache Spark for batch and streaming data processing; skilled in PySpark, dbt, and Pandas for efficient data transformations supporting both analytical and ML workflows.</li>
-      <li>Designed and deployed end-to-end machine learning pipelines using MLflow, SageMaker, Vertex AI, and Kubeflow, integrating model training, validation, deployment, and monitoring.</li>
-      <li>Developed real-time data ingestion and streaming analytics solutions leveraging Kafka, Kinesis, and Apache Flink, enabling low-latency operational and AI-driven decision making.</li>
-      <li>Automated data workflows and CI/CD pipelines with Apache Airflow, Prefect, and Dagster, ensuring reliable and scalable orchestration for both data engineering and ML model workflows.</li>
-      <li>Ensured data quality and governance using Great Expectations, dbt tests, and metadata management tools like Alation and Collibra, supporting compliance and trust in data assets and AI models.</li>
-      <li>Utilized data virtualization platforms such as Denodo and TIBCO Data Virtualization to integrate disparate data sources, accelerating data accessibility for both analytics and machine learning.</li>
-      <li>Built interactive business intelligence dashboards with Tableau, Power BI, and Looker, empowering stakeholders with actionable insights derived from AI models and data analysis.</li>
-      <li>Collaborated cross-functionally with data scientists, analysts, and product managers to translate complex business problems into scalable data and AI-driven solutions.</li>
-      <li>Passionate about advancing data engineering and AI practices through automation, data quality, and scalable platform design that drives strategic decision-making and innovation.</li>
-    </ul>
+        <div class="work-card">
+            <img src="images/best_brains.png" alt="Best Brains Logo">
+            <h3>Data Pipeline Engineer</h3>
+            <p>Best Brains</p>
+            <p class="year">Jan 2024 – Dec 2024</p>
+        </div>
 
-    <h2>Professional Experience</h2>
-    <div class="job">
-      <h3>Data Engineer – Net Orbit <span>Feb 2025 – Present</span></h3>
-      <ul>
-        <li>Designed and maintained scalable ETL pipelines using Python (Pandas, PySpark), SQL, and dbt, reducing processing time by 40% and enabling self-service analytics through a unified data warehouse in Snowflake.</li>
-        <li>Led cloud migration from on-prem to AWS (S3, Redshift, Lambda, Glue), enhancing scalability, reducing infrastructure costs by 25%, and improving security via IAM and encryption standards.</li>
-        <li>Implemented automated data validation using Great Expectations and integrated with Apache Airflow to maintain 99.8% data accuracy across production pipelines.</li>
-        <li>Built operational dashboards with Tableau and Looker, improving business reporting cycles by 60%.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Data Pipeline Engineer – Best Brains <span>Jan 2024 – Dec 2024</span></h3>
-      <ul>
-        <li>Developed ELT pipelines using dbt, SQL, and Fivetran to automate ingestion from sales and marketing platforms (Salesforce, HubSpot), improving pipeline efficiency by 30%.</li>
-        <li>Built dynamic Tableau dashboards integrated with Snowflake and REST APIs, reducing manual reporting time by 40%.</li>
-        <li>Implemented data contracts and tests using dbt tests and Soda, standardizing multi-source data and improving forecasting reliability.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Data Platform Engineer – Nala Robotics <span>Apr 2022 – Jul 2023</span></h3>
-      <ul>
-        <li>Engineered scalable batch and streaming ETL pipelines using Apache Airflow, PySpark, and Kafka, improving data pipeline performance by 30%.</li>
-        <li>Utilized PostgreSQL and MongoDB for real-time ingestion and processing of IoT sensor data across robotic systems, supporting 3M+ records per day.</li>
-        <li>Deployed data workflows with Docker and orchestrated containerized services using Kubernetes, boosting reliability and reducing manual interventions by 40%.</li>
-        <li>Collaborated with DevOps and product teams to design modular, cloud-agnostic data architectures using Terraform and AWS CDK.</li>
-        <li>Partnered with data scientists and engineers to optimize data availability and pipeline efficiency, accelerating model training cycles and improving data-driven decision-making.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Machine Learning Engineer – AdvanSoft <span>Jan 2021 – Mar 2022</span></h3>
-      <ul>
-        <li>Built and deployed predictive models using TensorFlow, Scikit-learn, and MLflow, achieving a 15% uplift in model accuracy across churn and segmentation use cases.</li>
-        <li>Designed real-time model scoring systems using AWS SageMaker and integrated them with production microservices via FastAPI and Kafka.</li>
-        <li>Created feature pipelines using Feast and automated data preprocessing with Airflow, ensuring scalable, reusable ML workflows.</li>
-        <li>Collaborated with data scientists and backend teams to embed ML services into APIs, improving system throughput and inference latency by 20%.</li>
-      </ul>
-    </div>
+        <div class="work-card">
+            <img src="images/nala_robotics.png" alt="Nala Robotics Logo">
+            <h3>Data Platform Engineer</h3>
+            <p>Nala Robotics</p>
+            <p class="year">Apr 2022 – Jul 2023</p>
+        </div>
 
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>Programming & Scripting:</strong> Python, SQL (MySQL, PostgreSQL, Oracle, SQL Server), Shell Scripting, Java, Scala, PySpark</li>
-      <li><strong>Data Engineering & Integration:</strong> Apache Spark, Apache Kafka, Apache Flink, Apache NiFi, Hadoop, dbt, Fivetran, Stitch, Talend, Informatica, Denodo, Airbyte, Delta Lake, Hudi, Iceberg</li>
-      <li><strong>Cloud Platforms:</strong> AWS (S3, EC2, Glue, Lambda, Redshift, Athena, EMR, SageMaker), GCP (BigQuery, Dataflow, Cloud Functions, Vertex AI), Azure (Data Factory, Synapse, ML Studio)</li>
-      <li><strong>Workflow Orchestration & DevOps:</strong> Apache Airflow, Prefect, Dagster, Luigi, Jenkins, GitHub Actions, Docker, Kubernetes, Terraform, dbt Cloud</li>
-      <li><strong>Data Quality & Observability:</strong> Great Expectations, Soda, Monte Carlo, OpenLineage, DataHub</li>
-      <li><strong>Databases & Warehousing:</strong> Snowflake, Amazon Redshift, Google BigQuery, Azure Synapse, MySQL, PostgreSQL, MongoDB, Redis, Cassandra</li>
-      <li><strong>Business Intelligence & Visualization:</strong> Tableau, Power BI, Looker, Superset, Grafana, Kibana, Metabase</li>
-      <li><strong>Machine Learning & MLOps:</strong> MLflow, Feast, SageMaker, Vertex AI, MLlib, Scikit-learn, TensorFlow, LangChain, Hugging Face Transformers</li>
-      <li><strong>Version Control & Collaboration:</strong> Git, GitHub, GitLab, Bitbucket, JIRA, Confluence, VS Code, Postman, REST APIs, GraphQL</li>
-    </ul>
+        <div class="work-card">
+            <img src="images/advansoft.png" alt="AdvanSoft Logo">
+            <h3>Machine Learning Engineer</h3>
+            <p>AdvanSoft</p>
+            <p class="year">Jan 2021 – Mar 2022</p>
+        </div>
+    </div>
+</section>
 
-    <h2>Projects</h2>
-    <div class="job">
-      <h3>Real-Time Data Pipeline for Fraud Detection</h3>
-      <ul>
-        <li>Designed and implemented a real-time fraud detection system capable of processing millions of records per minute with sub-2s latency using Apache Kafka, Apache Flink, and AWS Kinesis.</li>
-        <li>Streamed data to S3 via Apache Hudi and enabled ad-hoc querying using AWS Athena; monitored pipeline metrics through Grafana.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Modern Data Stack for Retail Analytics</h3>
-      <ul>
-        <li>Built a scalable ELT pipeline leveraging Fivetran for ingestion and dbt for data modeling within Snowflake’s cloud data warehouse.</li>
-        <li>Implemented automated testing and data validation using Great Expectations and dbt test suite; managed workflows with Airflow and CI/CD via GitHub Actions.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>MLOps Pipeline with Feature Store for Churn Prediction</h3>
-      <ul>
-        <li>Built an end-to-end machine learning pipeline with Feast feature store and MLflow for experiment tracking.</li>
-        <li>Deployed models using SageMaker real-time endpoints; automated retraining workflows using Airflow and Spark.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>AI-Powered Data Quality Assistant</h3>
-      <ul>
-        <li>Developed an intelligent assistant that auto-generates Great Expectations rules using GPT-4 and schema metadata.</li>
-        <li>Integrated with Airflow and dbt pipelines; added Slack alerts for validation failures, reducing manual QA workload by 60%.</li>
-      </ul>
-    </div>
+<style>
+#work {
+    text-align: center;
+    padding: 30px 0;
+}
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.work-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+}
+.work-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.work-card h3 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+.work-card p {
+    margin: 3px 0;
+    font-size: 0.9rem;
+}
+.year {
+    font-style: italic;
+    color: #666;
+}
+</style>
 
-    <h2>Certifications</h2>
-    <ul>
-      <li>AWS Certified Cloud Practitioner</li>
-      <li>IBM Data Science</li>
-    </ul>
-  </section>
 
-  <section id="contact">
+
+<section id="work">
+    <h2 class="work-info">
+        <i class="fas fa-laptop"></i>
+        Work <span class="r">Project Experience</span>
+    </h2>
+
+    <!-- Work Cards -->
+    <div class="work-container">
+
+        <div class="work-card">
+            <a href="#" target="_blank">
+                <img src="images/data-pipeline.jpeg" alt="Fraud Detection">
+                <div class="work-info">
+                    <h3>Real-Time Data Pipeline for Fraud Detection</h3>
+                    <p>Designed and implemented a real-time fraud detection system using Kafka, Flink, and AWS Kinesis, capable of handling millions of records per minute with sub-2s latency, integrated with S3, Athena, and Grafana for monitoring.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="work-card">
+            <a href="#" target="_blank">
+                <img src="images/retail-analytics.png" alt="Retail Analytics">
+                <div class="work-info">
+                    <h3>Modern Data Stack for Retail Analytics</h3>
+                    <p>Developed a scalable ELT pipeline with Fivetran, dbt, and Snowflake, automated testing with Great Expectations, and CI/CD workflows using Terraform and GitHub Actions to power retail analytics dashboards.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="work-card">
+            <a href="#" target="_blank">
+                <img src="images/mlops.png" alt="Churn Prediction">
+                <div class="work-info">
+                    <h3>MLOps Pipeline with Feature Store for Churn Prediction</h3>
+                    <p>Built an end-to-end ML pipeline with Feast feature store, MLflow experiment tracking, and SageMaker deployment. Automated retraining workflows with Airflow and Spark, containerized with Docker and Kubernetes.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="work-card">
+            <a href="#" target="_blank">
+                <img src="images/data-quality-ai.png" alt="Data Quality Assistant">
+                <div class="work-info">
+                    <h3>AI-Powered Data Quality Assistant</h3>
+                    <p>Developed an AI assistant using GPT-4, LangChain, and Great Expectations to auto-generate validation rules, integrated with dbt and Airflow pipelines, reducing manual QA workload by 60%.</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+    <section id = "contact">
     <div class="contact-container">
-      <h2 class="contact-text">
-        <i class="fa-solid fa-address-book"></i>
-        Contact <span class="x">Me</span>
-      </h2>
-      <div class="contact-box">
-        <div class="left-section">
-          <img src="images/connect.webp" alt="Connect">
-          <p><i class="fas fa-phone"></i> +1 4694769336</p>
-          <p><i class="fas fa-envelope"></i> gottipatijahnavi3005@gmail.com</p>
-          <p><i class="fas fa-map-marker-alt"></i> McKinney, Texas</p>
-          <p>If you have any queries at all, please feel free to reach out and I'll gladly answer them. Thanks for visiting.</p>
+        <h2 class = "contact-text">
+            <i class="fa-solid fa-address-book"></i>
+            Contact <span class = "x">Me</span> </h2>
+        <div class="contact-box">
+            <div class="left-section">
+                <img src="images/connect.webp">
+                <p><i class="fas fa-phone"></i> +1 4694769336</p>
+                <p><i class="fas fa-envelope"></i> gottipatijahnavi3005@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Mckinney, Texas</p>
+                <p>If you have any queries at all, please feel free to reach out and I'll gladly answer them. Thanks for visiting.</p>
+            </div>
+            <div class="right-section">
+                <h3>Let's Connect</h3>
+                <form action="#">
+                    <input type="text" placeholder="Enter your Full Name" required>
+                    <input type="email" placeholder="Enter your Email" required>
+                    <input type="tel" placeholder="Enter your Phone Number" required>
+                    <textarea placeholder="Suggestions/Queries"></textarea>
+                    <button class = "btnn"type="submit">Send</button>
+                </form>
+            </div>
         </div>
-        <div class="right-section">
-          <h3>Let's Connect</h3>
-          <form action="#">
-            <input type="text" placeholder="Enter your Full Name" required>
-            <input type="email" placeholder="Enter your Email" required>
-            <input type="tel" placeholder="Enter your Phone Number" required>
-            <textarea placeholder="Suggestions/Queries"></textarea>
-            <button class="btnn" type="submit">Send</button>
-          </form>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="index.js"></script>
+</section>
+    
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
 </body>
 </html>
